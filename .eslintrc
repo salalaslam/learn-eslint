@@ -12,7 +12,7 @@
           "object", // Imports of objects
           "type", // Type imports
         ],
-        "newlines-between": "always",
+        "newlines-between": "never",
         "alphabetize": {
           "order": "asc",
           "caseInsensitive": true,
