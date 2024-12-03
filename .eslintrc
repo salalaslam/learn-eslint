@@ -1,5 +1,5 @@
 {
-  "plugins": ["import"],
+  "plugins": ["import", "unused-imports"],
   "rules": {
     "import/order": [
       "error",
