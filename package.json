@@ -1,0 +1,15 @@
+{
+  "name": "learn-eslint",
+  "version": "1.0.0",
+  "description": "A sample project to learn eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "eslint-plugin-import": "^2.31.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
