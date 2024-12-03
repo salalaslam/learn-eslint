@@ -5,18 +5,26 @@
       "error",
       {
         "groups": [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index",
+          "builtin", // Node built-ins: fs, path, etc.
+          "external", // External modules: react, lodash, etc.
+          "internal", // Internal modules
+          ["parent", "sibling", "index"], // Parent, sibling, and index imports
+          "object", // Imports of objects
+          "type", // Type imports
         ],
         "newlines-between": "always",
         "alphabetize": {
           "order": "asc",
           "caseInsensitive": true,
         },
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "external",
+            "position": "before",
+          },
+        ],
+        "pathGroupsExcludedImportTypes": ["builtin"],
       },
     ],
   },
